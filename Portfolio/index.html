@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portfolio - Hannah</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+ <header class="navbar">
+  <div class="nav-left">
+    <div class="logo">Durga<span>nandhini</span></div>
+  </div>
+
+  <div class="nav-right">
+    <nav class="nav-menu">
+      <a href="#portfolio" class="active">Portfolio</a>
+       <a href="#about">About Me</a>
+      <a href="#skills">Skills</a>
+      <!-- <a href="#projects">Projects</a> -->
+     
+      <a href="#contact" class="contact-btn">Contact Me</a>
+      
+    </nav>
+  </div>
+</header>
+<br>
+<br>
+ <!-- Hero Section -->
+<section class="hero" id="portfolio">
+  <div class="container hero-content">
+    <div class="hero-text">
+      <h2>Hi</h2>
+      <h1>I'm <span>Durganandhini</span><br>a Mern Stack Developer</h1>
+       <p class="intro">
+  A passionate developer with hands-on experience in building responsive and user-friendly web applications.
+</p>
+
+      <div class="hero-buttons">
+        <a href="C:\Users\Durganandhini\Downloads\RESUME  Durga.pdf" class="btn black" download>Download CV</a>
+
+        <a href="#contact" class="btn orange">Contact Me</a>
+      </div>
+     
+
+
+      <!-- Social Icons -->
+      <div class="social-icons">
+        <a href="https://www.linkedin.com/in/durga-nandhini-4276b1259?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" aria-label="LinkedIn">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="https://github.com/Durganandhini23" target="_blank" aria-label="GitHub">
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+    </div>
+
+    <div class="hero-img">
+      <img src="image.jpg" alt="Durganandhini" class="profile-pic">
+    </div>
+  </div>
+</section>
+
+
+
+  <!-- About Section -->
+  <section class="about-section" id="about">
+    <div class="container about-content">
+      <div class="about-img">
+        <img src="image.jpg" alt="Hannah" class="about-pic">
+      </div>
+      <div class="about-text">
+        <h2>About <span>Me</span></h2>
+        <h1>Mern Stack <span>Developer</span></h1>
+        <p>
+  Hi, I’m Durganandhini, a dedicated and enthusiastic Frontend Developer with a strong foundation in modern web technologies. I enjoy turning ideas into interactive, responsive, and user-friendly interfaces using HTML, CSS, JavaScript, and React.js. With a focus on clean design and smooth user experiences, I strive to build websites that are both functional and visually engaging.
+  <br><br>
+  Alongside frontend development, I’m also well-versed in programming concepts like Object-Oriented Programming and have hands-on experience in languages like C and Java. I’m a fast learner, highly organized, and always eager to take on new challenges and continuously grow in the ever-evolving world of tech.
+</p>
+
+        <!-- <a href="#experience" class="btn orange">Experience</a> -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section class="skills-section" id="skills">
+    <div class="container">
+      <h2 class="section-title">Explore My <span>Skills</span></h2>
+      <div class="skills-grid">
+        <!-- Frontend & Backend -->
+        <div class="skill-box">
+          <h3>Frontend & Backend Development</h3>
+          <div class="skill-list">
+            <div class="skill-item"><i>✔</i><span><strong>HTML</strong><br><small>Experienced</small></span></div>
+            <div class="skill-item"><i>✔</i><span><strong>CSS</strong><br><small>Experienced</small></span></div>
+            <div class="skill-item"><i>✔</i><span><strong>JavaScript</strong><br><small>Intermediate</small></span></div>
+            <div class="skill-item"><i>✔</i><span><strong>React js</strong><br><small>Intermediate</small></span></div>
+            <div class="skill-item"><i>✔</i><span><strong>Node js</strong><br><small>Basic</small></span></div>
+            <div class="skill-item"><i>✔</i><span><strong>Express js</strong><br><small>Basic</small></span></div>
+            <div class="skill-item"><i>✔</i><span><strong>MongoDB</strong><br><small>Basic</small></span></div>
+          </div>
+        </div>
+
+        <!-- Programming Languages -->
+        <div class="skill-box">
+          <h3>Programming Languages</h3>
+          <div class="skill-list">
+            <div class="skill-item"><i>✔</i><span><strong>C</strong><br><small>Intermediate</small></span></div>
+            <div class="skill-item"><i>✔</i><span><strong>Java</strong><br><small>Intermediate</small></span></div>
+            <div class="skill-item"><i>✔</i><span><strong>DSA</strong><br><small>Intermediate</small></span></div>
+            <div class="skill-item"><i>✔</i><span><strong>OOPS</strong><br><small>Intermediate</small></span></div>
+            <div class="skill-item"><i>✔</i><span><strong>SQL</strong><br><small>Basic</small></span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact-section" id="contact">
+    <div class="container contact-content">
+      <h2>Contact <span>Me</span></h2>
+      <p>If you have any questions or want to work together, feel free to reach out!</p>
+      <form class="contact-form">
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea placeholder="Your Message" rows="5" required></textarea>
+        <button class="btn orange" type="submit">Send Message</button>
+      </form>
+    </div>
+  </section>
+  <!-- Footer -->
+<footer class="footer">
+  <div class="container">
+    <p>Copyright © 2025 <strong>Durga</strong>. All Rights Reserved.</p>
+  </div>
+</footer>
+
+
+</body>
+</html>
